@@ -383,7 +383,7 @@ GridMvc = (function ($) {
 if (typeof (GridMvc.lang) == 'undefined')
     GridMvc.lang = {};
 GridMvc.lang.en = {
-    filterTypeLabel: "Type: ",
+    /*filterTypeLabel: "Type: ",
     filterValueLabel: "Value:",
     applyFilterButtonText: "Apply",
     filterSelectTypes: {
@@ -397,7 +397,22 @@ GridMvc.lang.en = {
     code: 'en',
     boolTrueLabel: "Yes",
     boolFalseLabel: "No",
-    clearFilterLabel: "Clear filter"
+    clearFilterLabel: "Clear filter"*/
+    filterTypeLabel: "Tipo: ",
+    filterValueLabel: "Valor:",
+    applyFilterButtonText: "Buscar",
+    filterSelectTypes: {
+        Equals: "Igual",
+        StartsWith: "Empieza con",
+        Contains: "Contiene",
+        EndsWith: "Termina con",
+        GreaterThan: "Mayor que",
+        LessThan: "Menor que"
+    },
+    code: 'es',
+    boolTrueLabel: "Si",
+    boolFalseLabel: "No",
+    clearFilterLabel: "Limpiar"
 };
 /***
 * ============= FILTER WIDGETS =============
