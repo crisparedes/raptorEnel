@@ -72,18 +72,16 @@
 
 
  <script>
-  $(function(){
-     var msg = "@(TempData["Msg"] as string)";
-     if (msg !== "") {
-         toastr.success(msg);
-     }
-  });
-
-
+    $(function(){
+        var msg = "@(TempData["Msg"] as string)";
+        if (msg !== "") {
+            toastr.success(msg);
+        }
+    });
     function SelectedIndexChanged() {
         //Form post
         document.pgForm.submit();
     }
-
+    $(".grid-filter-btn").attr('title', 'Filtrar');
 </script>
 
