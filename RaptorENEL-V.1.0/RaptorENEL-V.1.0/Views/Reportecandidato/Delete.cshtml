@@ -1,0 +1,200 @@
+﻿@model RaptorENEL_V._1._0.Models.Reportecandidato
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>ELIMINAR ANEXO CUNDINAMARCA 100%</h2>
+
+<h3>¿Está seguro de eliminar este registro?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.User.username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estado_predio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estado_predio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre_propietario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre_propietario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.documento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.documento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.latitud_pre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.latitud_pre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.longitud_pre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.longitud_pre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.codigo_conexion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.codigo_conexion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.latitud_con)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.latitud_con)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.longitud_con)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.longitud_con)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tipo_red)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tipo_red)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cdt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cdt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estado_vivienda)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estado_vivienda)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.obs_adecuacion_i)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.obs_adecuacion_i)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.obs_adecuacion_e)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.obs_adecuacion_e)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tipo_servicio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tipo_servicio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.servicio_directo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.servicio_directo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.valor_oferta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.valor_oferta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.observaciones)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.observaciones)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_creacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_creacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.distancia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.distancia)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="col-xs-12 col-sm-9 col-md-8 padding-bottom-30">
+            <div class="text-left">
+                <a class="btn btn-secondary btn-icon bottom15 right15" href="@Url.Action("Index","Reportecandidato")">
+                    <i class="fa fa-arrow-left"></i>
+                    <span class="title">Regresar</span>
+                </a>
+
+                <button type="submit" class="btn btn-info btn-icon bottom15 right15">
+                    <i class="fa fa-trash-o"></i> &nbsp; <span>Eliminar</span>
+                </button>
+            </div>
+        </div>
+
+    }
+</div>

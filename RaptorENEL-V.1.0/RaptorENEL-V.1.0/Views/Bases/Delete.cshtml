@@ -1,0 +1,93 @@
+﻿@model RaptorENEL_V._1._0.Models.Base
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>ELIMINAR ANOMALÍA/TIPO REPORTE</h2>
+
+<h3>¿Está seguro de eliminar este registro?</h3>
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.codigo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.codigo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.proceso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.proceso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tipo)
+        </dt>
+
+        <dd>
+            @if (Model.tipo == "A")
+            {
+                <span>Anomalía</span>
+            }
+            else
+            {
+                <span>Tipo Reporte</span>
+            }
+
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.activo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.activo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_creacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_creacion)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+
+        <div class="col-xs-12 col-sm-9 col-md-8 padding-bottom-30">
+            <div class="text-left">
+                <a class="btn btn-secondary btn-icon bottom15 right15" href="@Url.Action("Index","Bases")">
+                    <i class="fa fa-arrow-left"></i>
+                    <span class="title">Regresar</span>
+                </a>
+
+                <button type="submit" class="btn btn-info btn-icon bottom15 right15">
+                    <i class="fa fa-trash-o"></i> &nbsp; <span>Eliminar</span>
+                </button>
+            </div>
+        </div>
+
+
+
+    }
+
+</div>

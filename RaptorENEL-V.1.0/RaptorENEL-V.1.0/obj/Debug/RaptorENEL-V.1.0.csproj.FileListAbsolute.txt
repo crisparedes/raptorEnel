@@ -1,0 +1,172 @@
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\ApplicationInsights.config
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\csc.exe
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\vbc.exe
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\VBCSCompiler.exe
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\RaptorENEL-V.1.0.dll.config
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\RaptorENEL-V.1.0.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\RaptorENEL-V.1.0.pdb
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Antlr3.Runtime.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\EntityFramework.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\GridMvc.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.Web.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.ApplicationInsights.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Newtonsoft.Json.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Owin.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Helpers.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Mvc.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Optimization.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Razor.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\WebGrease.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.Web.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.ApplicationInsights.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Helpers.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Mvc.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Optimization.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Razor.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Antlr3.Runtime.pdb
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Newtonsoft.Json.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\EntityFramework.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\obj\Debug\RaptorENEL-V.1.0.dll
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\obj\Debug\RaptorENEL-V.1.0.pdb
+C:\Proyectos\Proyectos ENEL\Raptor-ENEL-V.1\RaptorENEL-V.1.0\RaptorENEL-V.1.0\obj\Debug\RaptorENEL-V.1.0.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\ApplicationInsights.config
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\csc.exe
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\vbc.exe
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\VBCSCompiler.exe
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\RaptorENEL-V.1.0.dll.config
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\RaptorENEL-V.1.0.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\RaptorENEL-V.1.0.pdb
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Antlr3.Runtime.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\EntityFramework.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\EntityFramework.SqlServer.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\GridMvc.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.Web.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.ApplicationInsights.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Newtonsoft.Json.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Owin.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Helpers.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Mvc.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Optimization.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Razor.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.Deployment.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.Razor.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\WebGrease.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.Web.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.ApplicationInsights.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Helpers.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Mvc.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Optimization.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.Razor.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.Deployment.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Web.WebPages.Razor.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Antlr3.Runtime.pdb
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Newtonsoft.Json.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\EntityFramework.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\EntityFramework.SqlServer.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\obj\Debug\RaptorENEL-V.1.0.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\obj\Debug\RaptorENEL-V.1.0.pdb
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\EntityFramework6.Npgsql.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Npgsql.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\EntityFramework6.Npgsql.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Npgsql.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\usuario\Desktop\RAPTOR\RaptorENEL-V.1.0\RaptorENEL-V.1.0\obj\Debug\RaptorENEL-V.1.0.csprojResolveAssemblyReference.cache

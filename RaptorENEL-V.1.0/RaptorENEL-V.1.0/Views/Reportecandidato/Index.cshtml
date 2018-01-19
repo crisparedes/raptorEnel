@@ -1,0 +1,101 @@
+﻿@using GridMvc.Html
+@model IEnumerable<RaptorENEL_V._1._0.Models.Reportecandidato>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h2>LISTADO ANEXO CUNDINAMARCA 100%</h2>
+
+<div class="dataTables_wrapper form-inline no-footer">
+    <div class="row">
+        <div class="col-md-7">
+
+        </div>
+
+        <div class="col-md-5">
+            <a class="btn btn-secondary btn-icon bottom15 right15" href="@Url.Action("Create","Reportecandidato")">
+                <span class="title"> Agregar Anexo Cundinamarca 100%</span>
+                <i class="fa fa-plus"></i>
+            </a>
+            <div class="dataTables_length" id="example_length" style="float: right;">
+
+                @using (Html.BeginForm("Index", "Reportecandidato", FormMethod.Post, new { id = "pgForm", name = "pgForm" }))
+                {
+                    <select id="grid-size" name="grid-size" aria-controls="example" class="form-control input-sm select2-wrapper" onchange="SelectedIndexChanged()">
+                        @if (@Session["Paginacion"].ToString() == "10")
+                        {
+                            <option value="10" selected>10</option>}
+                        else
+                        {
+                            <option value="10">10</option>}
+                        @if (@Session["Paginacion"].ToString() == "25")
+                        {
+                            <option value="25" selected>25</option>}
+                        else
+                        {
+                            <option value="25">25</option>}
+                        @if (@Session["Paginacion"].ToString() == "50")
+                        {
+                            <option value="50" selected>50</option>}
+                        else
+                        {
+                            <option value="50">50</option>}
+                        @if (@Session["Paginacion"].ToString() == "100")
+                        {
+                            <option value="100" selected>100</option>}
+                        else
+                        {
+                            <option value="100">100</option>}
+                    </select>
+                }
+
+            </div>
+        </div>
+    </div>
+    <div class="row" id="content">
+        @Html.Grid(Model).Columns(columns =>
+   {
+       columns.Add(c => c.solicitud).Titled("Solicitud").Filterable(true).SetWidth("10%");
+       columns.Add(c => c.estado_predio).Titled("Estado del<br/>predio").RenderValueAs(c => c.estado_predio == "S" ? @"Sin servicio" : c.estado_predio == "C" ? @"Conectado" : c.estado_predio == "R" ? @"Sin servicio - red existente codensa" : c.estado_predio == "T" ? @"Sin servicio - red construida tercero" : @"Con servicio (medidor)").SetWidth("10%");
+       columns.Add(c => c.nombre_propietario).Titled("Nombre del<br/>propietario").SetWidth("15%");
+       columns.Add(c => c.tipo_red).Titled("Tipo de red").RenderValueAs(c => c.tipo_red == "T" ? @"Red trenzada" : @"Red abierta").SetWidth("10%");
+       columns.Add(c => c.estado_vivienda).Titled("Estado de<br/>vivienda").RenderValueAs(c => c.estado_vivienda == "CT" ? @"Construida" : c.estado_vivienda == "EC" ? @"En construcción" : @"Lote baldío").SetWidth("10%");
+       columns.Add(c => c.distancia).Titled("Distancia").SetWidth("10%").RenderValueAs(c => c.distancia==0 ? c.distancia.ToString() : c.distancia.ToString("#.##"));
+       columns.Add(c => c.fecha_creacion).Titled("Fecha envío").SetWidth("15%");
+       columns.Add()
+           .Titled("Editar")
+           .Css("text-center")
+           .Filterable(true)
+           .Sanitized(false)
+           .Encoded(false).SetWidth("5%")
+          .RenderValueAs(c => @"<a class='btn-icon' href='Reportecandidato/Edit/" + c.solicitud + @"'>  <i class='fa fa-pencil-square-o icon-info'></i></a>");
+       columns.Add()
+         .Titled("Eliminar")
+         .Css("text-center")
+         .Filterable(true)
+         .Sanitized(false)
+         .Encoded(false).SetWidth("5%")
+         .RenderValueAs(c => @"<a class='btn-icon' href='Reportecandidato/Delete/" + c.solicitud + @"'>  <i class='fa fa-trash-o icon-accent'></i></a>");
+   }).WithPaging(int.Parse(@Session["Paginacion"].ToString())).Sortable(true)
+    </div>
+</div>
+
+
+<script>
+  $(function(){
+     var msg = "@(TempData["Msg"] as string)";
+     if (msg !== "") {
+         toastr.success(msg);
+     }
+  });
+
+
+    function SelectedIndexChanged() {
+        //Form post
+        document.pgForm.submit();
+    }
+
+</script>
+
