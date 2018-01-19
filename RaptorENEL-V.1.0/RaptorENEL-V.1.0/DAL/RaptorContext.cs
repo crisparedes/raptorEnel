@@ -18,6 +18,8 @@ namespace RaptorENEL_V._1._0.DAL
         public DbSet<Base> Base { get; set; }
         public DbSet<Municipio> Municipio { get; set; }
         public DbSet<Reportecandidato> Reportecandidato { get; set; }
+        public DbSet<Candidato> Candidato { get; set; }
+
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
