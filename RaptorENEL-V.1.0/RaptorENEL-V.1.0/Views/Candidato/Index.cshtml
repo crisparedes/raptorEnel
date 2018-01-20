@@ -1,87 +1,98 @@
-﻿@model IEnumerable<RaptorENEL_V._1._0.Models.Candidato>
+﻿@using GridMvc.Html
+@model IEnumerable<RaptorENEL_V._1._0.Models.Candidato>
 
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>LISTADO CANDIDATOS CUNDINAMARCA 100%</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.sucursal)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.solicitud)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.municipio)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.direccion)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.propietario)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.zona)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.subzona)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.latitud)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.longitud)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.estado)
-        </th>
-        <th></th>
-    </tr>
+<div class="dataTables_wrapper form-inline no-footer">
+    <div class="row">
+        <div class="col-md-7">
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.sucursal)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.solicitud)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.municipio)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.direccion)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.propietario)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.zona)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.subzona)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.latitud)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.longitud)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.estado)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id })
-        </td>
-    </tr>
-}
+        </div>
 
-</table>
+        <div class="col-md-5">
+            <a class="btn btn-secondary btn-icon bottom15 right15" href="@Url.Action("Create","Candidato")">
+                <span class="title"> Agregar Candidato Cundinamarca 100%</span>
+                <i class="fa fa-plus"></i>
+            </a>
+            <div class="dataTables_length" id="example_length" style="float: right;">
+
+                @using (Html.BeginForm("Index", "Candidato", FormMethod.Post, new { id = "pgForm", name = "pgForm" }))
+                {
+                    <select id="grid-size" name="grid-size" aria-controls="example" class="form-control input-sm select2-wrapper" onchange="SelectedIndexChanged()">
+                        @if (@Session["Paginacion"].ToString() == "10")
+                        {
+                            <option value="10" selected>10</option>}
+                        else
+                        {
+                            <option value="10">10</option>}
+                        @if (@Session["Paginacion"].ToString() == "25")
+                        {
+                            <option value="25" selected>25</option>}
+                        else
+                        {
+                            <option value="25">25</option>}
+                        @if (@Session["Paginacion"].ToString() == "50")
+                        {
+                            <option value="50" selected>50</option>}
+                        else
+                        {
+                            <option value="50">50</option>}
+                        @if (@Session["Paginacion"].ToString() == "100")
+                        {
+                            <option value="100" selected>100</option>}
+                        else
+                        {
+                            <option value="100">100</option>}
+                    </select>
+                }
+
+            </div>
+        </div>
+    </div>
+    <div class="row" id="content">
+        @Html.Grid(Model).Columns(columns =>
+   {
+       columns.Add(c => c.sucursal).Titled("Sucursal").Filterable(true) ;
+       columns.Add(c => c.propietario).Titled("Propietario");
+       columns.Add(c => c.solicitud).Titled("Solicitud");
+       columns.Add(c => c.municipio).Titled("Municipio");
+       columns.Add(c => c.zona).Titled("Zona");
+       columns.Add(c => c.estado).Titled("Estado");
+       columns.Add()
+           .Titled("Editar")
+           .Css("text-center")
+           .Filterable(true)
+           .Sanitized(false)
+           .Encoded(false).SetWidth("5%")
+          .RenderValueAs(c => @"<a class='btn-icon' href='Candidato/Edit/" + c.id + @"'>  <i class='fa fa-pencil-square-o icon-info'></i></a>");
+       columns.Add()
+         .Titled("Eliminar")
+         .Css("text-center")
+         .Filterable(true)
+         .Sanitized(false)
+         .Encoded(false).SetWidth("5%")
+         .RenderValueAs(c => @"<a class='btn-icon' href='Candidato/Delete/" + c.id + @"'>  <i class='fa fa-trash-o icon-accent'></i></a>");
+   }).WithPaging(int.Parse(@Session["Paginacion"].ToString())).Sortable(true)
+    </div>
+</div>
+
+
+<script>
+  $(function(){
+     var msg = "@(TempData["Msg"] as string)";
+     if (msg !== "") {
+         toastr.success(msg);
+     }
+  });
+
+
+    function SelectedIndexChanged() {
+        //Form post
+        document.pgForm.submit();
+    }
+
+</script>

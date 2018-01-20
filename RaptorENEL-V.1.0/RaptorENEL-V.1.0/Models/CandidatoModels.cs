@@ -16,8 +16,8 @@ namespace RaptorENEL_V._1._0.Models
         public int id { get; set; }
 
         [Display(Name = "Sucursal")]
-        [Range(1,Int32.MaxValue, ErrorMessage ="Debe ingresar un numero mayor a 0")]
-        public int sucursal { get; set; }
+        [Range(1, Int32.MaxValue, ErrorMessage = "Debe ingresar un numero mayor a 0")]
+        public int sucursal { get; set; } = 6000;
 
         [StringLength(10, ErrorMessage = " La solicitud no puede tener mas de 10 caracteres")]
         [Display(Name = "Solicitud")]

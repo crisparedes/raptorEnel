@@ -13,11 +13,22 @@ namespace RaptorENEL_V._1._0.Controllers
 {
     public class CandidatoController : Controller
     {
+        int Paginacion = 10;
         private RaptorContext db = new RaptorContext();
 
         // GET: Candidato
         public ActionResult Index()
         {
+            if (Request.Form["grid-size"] != null)
+            {
+                Paginacion = int.Parse(Request["grid-size"]);
+            }
+            else if (this.Session["Paginacion"] != null)
+            {
+                Paginacion = int.Parse(this.Session["Paginacion"].ToString());
+            }
+
+            this.Session["Paginacion"] = Paginacion;
             return View(db.Candidato.ToList());
         }
 
@@ -39,7 +50,8 @@ namespace RaptorENEL_V._1._0.Controllers
         // GET: Candidato/Create
         public ActionResult Create()
         {
-            return View();
+            Candidato candidato = new Candidato();
+            return View(candidato);
         }
 
         // POST: Candidato/Create
@@ -51,9 +63,22 @@ namespace RaptorENEL_V._1._0.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Candidato.Add(candidato);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                
+                bool solicitudExist = db.Candidato.Any(x => x.solicitud == candidato.solicitud);
+                if (!solicitudExist || candidato.solicitud == null)
+                {
+                    db.Candidato.Add(candidato);
+                    db.SaveChanges();
+                    TempData["Msg"] = "Creado correctamente";
+                    return RedirectToAction("Create");
+                }
+                else
+                {
+                    TempData["MsgErr"] = "La solicitud ya existe";
+                    return View(candidato);
+                }
+
+
             }
 
             return View(candidato);
@@ -71,6 +96,7 @@ namespace RaptorENEL_V._1._0.Controllers
             {
                 return HttpNotFound();
             }
+            this.Session["dataEdit"] = candidato.solicitud;
             return View(candidato);
         }
 
@@ -83,9 +109,22 @@ namespace RaptorENEL_V._1._0.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(candidato).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+          
+                bool solicitudExist = db.Candidato.Any(x => x.solicitud == candidato.solicitud);
+                String solicitud = this.Session["dataEdit"].ToString();
+                if (!solicitudExist || solicitud == candidato.solicitud || candidato == null)
+                {
+                    db.Entry(candidato).State = EntityState.Modified;
+                    db.SaveChanges();
+                    TempData["Msg"] = "Modificado correctamente";
+                    return View(candidato);
+                }
+                else
+                {
+                    TempData["MsgErr"] = "La solicitud ya existe";
+                    return View(candidato);
+                };
+            
             }
             return View(candidato);
         }
@@ -113,6 +152,7 @@ namespace RaptorENEL_V._1._0.Controllers
             Candidato candidato = db.Candidato.Find(id);
             db.Candidato.Remove(candidato);
             db.SaveChanges();
+            TempData["Msg"] = "Eliminado correctamente";
             return RedirectToAction("Index");
         }
 

@@ -4,7 +4,7 @@
     ViewBag.Title = "Edit";
 }
 
-<h2>Edit</h2>
+<h2>EDITAR CANDIDATO CUNDINAMARCA 100%</h2>
 
 
 @using (Html.BeginForm())
@@ -97,18 +97,35 @@
             </div>
         </div>
 
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
+        <div class="col-xs-12 col-sm-9 col-md-8 padding-bottom-30">
+            <div class="text-left">
+                <a class="btn btn-secondary btn-icon bottom15 right15" href="@Url.Action("Index","Candidato")">
+                    <i class="fa fa-arrow-left"></i>
+                    <span class="title">Regresar</span>
+                </a>
+
+                <button type="submit" class="btn btn-info btn-icon bottom15 right15">
+                    <i class="fa fa-floppy-o"></i> &nbsp; <span>Guardar</span>
+                </button>
             </div>
         </div>
     </div>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }
+
+<script>
+   $(function(){
+      var msg = "@(TempData["Msg"] as string)";
+      var msgErr = "@(TempData["MsgErr"] as string)";
+     if (msg !== "") {
+         toastr.success(msg);
+     }
+     if (msgErr !== "") {
+         toastr.error(msgErr);
+     }
+  });
+</script>

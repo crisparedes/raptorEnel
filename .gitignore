@@ -1,5 +1,10 @@
 *.config
+
 *.suo
+
 *.cache
+
 *.csproj
+
 *.dll
+*.pdb
