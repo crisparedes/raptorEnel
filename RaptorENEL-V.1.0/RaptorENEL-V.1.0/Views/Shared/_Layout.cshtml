@@ -10,8 +10,8 @@
     <!-- Scripts.Render("~/bundles/modernizr")-->
     @Scripts.Render("~/bundles/jquery")
 
-    @Scripts.Render("~/bundles/jquery")
 
+ 
 </head>
 <body>
     <!-- START TOP BAR -->
@@ -210,13 +210,13 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="" href="#">
+                                <a class="" href="@Url.Action("Index","ImagenCandidato")">
                                     <i class="fa fa-image"></i>
                                     <span class="title" style="font-size:95%">Imagenes terreno</span>
                                 </a>
                             </li>
                             <li>
-                                <a class="" href="#">
+                                <a class="" href="@Url.Action("Index","Ubala")">
                                     <i class="fa fa-list"></i>
                                     <span class="title" style="font-size:95%">Ubala(s)</span>
                                 </a>
@@ -226,15 +226,15 @@
 
                     <li class="">
                         <a href="javascript:;">
-                            <i class="fa fa-search"></i>
-                            <span class="title">Consulta Formularios</span>
+                            <i class="fa fa-th-list"></i>
+                            <span class="title">Hurtos</span>
                             <span class="arrow "></span>
                         </a>
                         <ul class="sub-menu">
                             <li>
-                                <a class="" href="#">
-                                    <i class="fa fa-mobile"></i>
-                                    <span class="title">App Móvil</span>
+                                <a class="" href="@Url.Action("Index","Hurtoes")">
+                                    <i class="fa fa-list"></i>
+                                    <span class="title">Reportes hurto</span>
                                 </a>
                             </li>
                         </ul>
@@ -242,15 +242,27 @@
 
                     <li class="">
                         <a href="javascript:;">
-                            <i class="fa fa-search-plus"></i>
-                            <span class="title">Consulta Masiva</span>
+                            <i class="fa fa-th-list"></i>
+                            <span class="title">Incidencias</span>
                             <span class="arrow "></span>
                         </a>
                         <ul class="sub-menu">
                             <li>
+                                <a class="" href="@Url.Action("Index","Notificacion")">
+                                    <i class="fa fa-list"></i>
+                                    <span class="title" style="font-size:80%">Configuración de notificaciones</span>
+                                </a>
+                            </li>
+                            <li>
                                 <a class="" href="#">
-                                    <i class="fa fa-picture-o"></i>
-                                    <span class="title">Registro Fotográfico</span>
+                                    <i class="fa fa-list"></i>
+                                    <span class="title">Reporte incidencias</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="" href="#">
+                                    <i class="fa fa-list"></i>
+                                    <span class="title">Seguimiento y cierre</span>
                                 </a>
                             </li>
                         </ul>

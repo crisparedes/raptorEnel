@@ -8,25 +8,30 @@ using System.Web.Mvc;
 
 namespace RaptorENEL_V._1._0.Models
 {
-    [Table("cundinamarca100_reportecandidato", Schema = "public")]
-    public class Reportecandidato
+
+    [Table("cundinamarca100_ubala", Schema = "public")]
+    public class Ubala
     {
+
         public List<SelectListItem> getStateAvailable()
         {
             List<SelectListItem> Lista = new List<SelectListItem>();
             Lista.Add(new SelectListItem
-            {Text = "Sin servicio", Value = "S"});
+            { Text = "Sin servicio", Value = "S" });
             Lista.Add(new SelectListItem
-            {Text = "Conectado", Value = "C"});
+            { Text = "Conectado", Value = "C" });
             Lista.Add(new SelectListItem
-            {Text = "Sin servicio - red existente codensa", Value = "R" });
+            { Text = "Sin servicio - red existente codensa", Value = "R" });
             Lista.Add(new SelectListItem
-            {Text = "Sin servicio - red construida tercero", Value = "T" });
+            { Text = "Sin servicio - red construida tercero", Value = "T" });
             Lista.Add(new SelectListItem
-            {Text = "Con servicio (medidor)", Value = "M" });
+            { Text = "Con servicio (medidor)", Value = "M" });
+            Lista.Add(new SelectListItem
+            { Text = "Servicio directo - red codensa", Value = "J" });
+            Lista.Add(new SelectListItem
+            { Text = "Servicio directo - red terceros", Value = "K" });
             return Lista;
         }
-
 
         public List<SelectListItem> getNetworkAvailable()
         {
@@ -62,15 +67,44 @@ namespace RaptorENEL_V._1._0.Models
             return Lista;
         }
 
-        [Key]
-        [StringLength(10, ErrorMessage = " La solicitud no pueden tener mas de 10 caracteres")]
-        [Required (ErrorMessage="Debe ingresar una Solicitud")]
-        [Display(Name = "Solicitud")]
-        public String solicitud { get; set; }
+        public List<SelectListItem> getChargeType()
+        {
+            List<SelectListItem> Lista = new List<SelectListItem>();
+            Lista.Add(new SelectListItem
+            { Text = "Monofásico", Value = "M" });
+            Lista.Add(new SelectListItem
+            { Text = "Bifásico", Value = "B" });
+            Lista.Add(new SelectListItem
+            { Text = "Trifásico", Value = "T" });
+            return Lista;
+        }
 
+        public List<SelectListItem> getCoverageType()
+        {
+            List<SelectListItem> Lista = new List<SelectListItem>();
+            Lista.Add(new SelectListItem
+            { Text = "Ninguna", Value = "N" });
+            Lista.Add(new SelectListItem
+            { Text = "Claro", Value = "C" });
+            Lista.Add(new SelectListItem
+            { Text = "Movistar", Value = "M" });
+            Lista.Add(new SelectListItem
+            { Text = "Tigo", Value = "T" });
+            return Lista;
+        }
+
+        [Key]
+        [Required(ErrorMessage = " Debe ingresar un código")]
+        [Display(Name = "Código")]
+        [StringLength(10, ErrorMessage = " El código no pueden tener mas de 10 caracteres")]
+        public String factibilidad { get; set; }
 
         [Display(Name = "Estado del predio")]
         public String estado_predio { get; set; }
+
+        [StringLength(50, ErrorMessage = " El municipio no pueden tener mas de 50 caracteres")]
+        [Display(Name = "Municipio")]
+        public String municipio { get; set; }
 
         [StringLength(150, ErrorMessage = " El nombre del propietario no pueden tener mas de 150 caracteres")]
         [Display(Name = "Nombre de propietario")]
@@ -84,6 +118,7 @@ namespace RaptorENEL_V._1._0.Models
 
         [StringLength(50, ErrorMessage = " El número contacto no pueden tener mas de 50 caracteres")]
         [Display(Name = "Número contacto")]
+        [Required(ErrorMessage = "Debe ingresar un número de contacto")]
         public String numero_contacto { get; set; } = "";
 
         [Display(Name = "Latitud predio")]
@@ -97,7 +132,7 @@ namespace RaptorENEL_V._1._0.Models
         [StringLength(50, ErrorMessage = " El código conexión no pueden tener mas de 50 caracteres")]
         [Display(Name = "Código conexión")]
         [Required(ErrorMessage = "Debe ingresar un código de conexión")]
-        public String  codigo_conexion { get; set; }
+        public String codigo_conexion { get; set; }
 
         [Display(Name = "Latitud conexión")]
         [Required(ErrorMessage = "Debe ingresar la latitud de la conexión")]
@@ -109,6 +144,13 @@ namespace RaptorENEL_V._1._0.Models
 
         [Display(Name = "Tipo de red")]
         public String tipo_red { get; set; }
+
+        [StringLength(25, ErrorMessage = " El mantenimiento red no pueden tener mas de 25 caracteres")]
+        [Display(Name = "Mantenimiento red")]
+        public String mantenimiento_red { get; set; }
+
+        [Display(Name = "Mantenimiento")]
+        public String mantenimiento { get; set; }
 
         [StringLength(25, ErrorMessage = " El Centro de distribuición no pueden tener mas de 25 caracteres")]
         [Display(Name = "Centro de distribuición")]
@@ -130,31 +172,30 @@ namespace RaptorENEL_V._1._0.Models
         public String tipo_servicio { get; set; }
 
         [DisplayFormat(DataFormatString = "{0:0.0}", ApplyFormatInEditMode = true)]
-        [Range(0, 999999.9)]
+        [Range(0, 999999.9, ErrorMessage = "La cantidad debe estar entre el rango de 0 y 999999.9")]
         [Display(Name = "Cantidad")]
+        [Required(ErrorMessage = "Debe ingresar una cantidad")]
         public Decimal carga { get; set; } = 0;
+
+        [Display(Name = "Tipo carga")]
+        public String tipo_carga { get; set; }
+
+        [Range(1, Int32.MaxValue, ErrorMessage = "El calibre debe ser mayor a 0")]
+        [Display(Name = "Calibre")]
+        [Required(ErrorMessage = "Debe ingresar un calibre")]
+        public int calibre { get; set; }
 
         [Display(Name = "Documentación")]
         [Required(ErrorMessage = "Debe ingresar la documentación")]
         public String documentacion { get; set; }
 
-        [Display(Name = "Carta")]
-        public bool carta { get; set; } = false;
+        [Display(Name = "Observaciones")]
+        [Required(ErrorMessage = "Debe ingresar las observaciones")]
+        public String observaciones { get; set; }
 
-        [Display(Name = "ced_prop")]
-        public bool ced_prop { get; set; } = false;
-
-        [Display(Name = "aut_cert")]
-        public bool  aut_cert{ get; set; } = false;
-
-        [Display(Name = "tarjeta")]
-        public bool  tarjeta{ get; set; } = false;
-
-        [Display(Name = "diseno")]
-        public bool  diseno{ get; set; } = false;
-
-        [Display(Name = "estrato")]
-        public bool  estrato{ get; set; } = false;
+        [Display(Name = "Usuario")]
+        public int usuario_id { get; set; }
+        public virtual User User { get; set; }
 
 
         [StringLength(4, ErrorMessage = " El Centro de distribuición no pueden tener mas de 4 caracteres")]
@@ -162,32 +203,33 @@ namespace RaptorENEL_V._1._0.Models
         [Required(ErrorMessage = "Debe ingresar un servicio directo")]
         public String servicio_directo { get; set; } = "N/A";
 
-        [StringLength(10, ErrorMessage = " El valor de oferta no pueden tener mas de 10 caracteres")]
-        [Display(Name = "Valor oferta")]
-        [Required(ErrorMessage = "Debe ingresar un valor de oferta")]
-        public String valor_oferta { get; set; } = "0";
-
-
-        [Display(Name = "Observaciones")]
-        [Required(ErrorMessage = "Debe ingresar las observaciones")]
-        public String observaciones { get; set; }
-
 
         [Display(Name = "Fecha creación")]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         [Required(ErrorMessage = "Debe seleccionar una fecha")]
         public DateTime? fecha { get; set; } = null;
 
+
+
+        [Display(Name = "Cobertura")]
+        public String cobertura { get; set; }
+
+        [Display(Name = "Imagen")]
+        public String imagen { get; set; } = "";
+
+        [NotMapped]
+        [Display(Name = "Imagen")]
+        public HttpPostedFileBase PostedFile { get; set; }
+
+        [NotMapped]
+        public bool limpiar { get; set; } = false;
+
+        [Display(Name = "Distancia")]
+        [Required(ErrorMessage = "Debe seleccionar una distancia")]
+        public double distancia { get; set; }        
+
         [Display(Name = "Fecha Envío")]
         public DateTime fecha_creacion { get; set; } = DateTime.Now;
 
-        [Display(Name = "Distancia")]
-        public double distancia { get; set; }
-
-
-
-        [Display(Name = "Usuario")]        
-        public int usuario_id { get; set; }
-        public virtual User User { get; set; }
     }
 }
