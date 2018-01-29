@@ -59,9 +59,5 @@ namespace RaptorENEL_V._1._0.Models
         [Display(Name = "Fecha Creación")]
         public DateTime fecha_creacion { get; set; } = DateTime.Now;
 
-        public ICollection<Hurto> Hurto {get; set; }
-
-
-
     }
 }

@@ -47,14 +47,5 @@ namespace RaptorENEL_V._1._0.Models
 
         [ForeignKey("usuario_id")]
         public ICollection<Reportecandidato> Reportecandidato { get; set; }
-
-        [ForeignKey("usuario_id")]
-        public ICollection<Ubala> Ubala { get; set; }
-
-        [ForeignKey("usuario_id")]
-        public ICollection<Hurto> Hurto { get; set; }
-
-        [ForeignKey("usuario_id")]
-        public ICollection<Notificacion> Notificacion { get; set; }
     }
 }

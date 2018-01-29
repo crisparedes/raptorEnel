@@ -256,6 +256,6 @@ C:\Users\usuario\Documents\GitHub\Raptor\raptorEnel\RaptorENEL-V.1.0\RaptorENEL-
 C:\Users\usuario\Documents\GitHub\Raptor\raptorEnel\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\usuario\Documents\GitHub\Raptor\raptorEnel\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\usuario\Documents\GitHub\Raptor\raptorEnel\RaptorENEL-V.1.0\RaptorENEL-V.1.0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\usuario\Documents\GitHub\Raptor\raptorEnel\RaptorENEL-V.1.0\RaptorENEL-V.1.0\obj\Debug\RaptorENEL-V.1.0.csprojResolveAssemblyReference.cache
 C:\Users\usuario\Documents\GitHub\Raptor\raptorEnel\RaptorENEL-V.1.0\RaptorENEL-V.1.0\obj\Debug\RaptorENEL-V.1.0.dll
 C:\Users\usuario\Documents\GitHub\Raptor\raptorEnel\RaptorENEL-V.1.0\RaptorENEL-V.1.0\obj\Debug\RaptorENEL-V.1.0.pdb
-C:\Users\usuario\Documents\GitHub\Raptor\raptorEnel\RaptorENEL-V.1.0\RaptorENEL-V.1.0\obj\Debug\RaptorENEL-V.1.0.csprojResolveAssemblyReference.cache

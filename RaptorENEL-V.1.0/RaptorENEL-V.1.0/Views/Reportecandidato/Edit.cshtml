@@ -4,7 +4,7 @@
     ViewBag.Title = "Edit";
 }
 
-<h2>EDITAR ANEXO CUNDINAMARCA 100%</h2>
+<h2>Edit</h2>
 
 
 @using (Html.BeginForm())
@@ -12,18 +12,10 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-
+        <h4>Reportecandidato</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.solicitud)
-        @Html.HiddenFor(model => model.numero_contacto)
-        @Html.HiddenFor(model => model.carta)
-        @Html.HiddenFor(model => model.ced_prop)
-        @Html.HiddenFor(model => model.aut_cert)
-        @Html.HiddenFor(model => model.tarjeta)
-        @Html.HiddenFor(model => model.diseno)
-        @Html.HiddenFor(model => model.estrato)
-        @Html.HiddenFor(model => model.fecha_creacion)
         <div class="form-group">
             @Html.LabelFor(model => model.estado_predio, htmlAttributes: new { @class = "control-label col-md-3" })
             <div class="col-md-9">

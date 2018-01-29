@@ -87,11 +87,9 @@ namespace RaptorENEL_V._1._0.Models
         public String numero_contacto { get; set; } = "";
 
         [Display(Name = "Latitud predio")]
-        [Required(ErrorMessage = "Debe ingresar la latitud del predio")]
         public double latitud_pre { get; set; }
 
         [Display(Name = "Longitud predio")]
-        [Required(ErrorMessage = "Debe ingresar la longitud del predio")]
         public double longitud_pre { get; set; }
 
         [StringLength(50, ErrorMessage = " El código conexión no pueden tener mas de 50 caracteres")]
@@ -100,11 +98,9 @@ namespace RaptorENEL_V._1._0.Models
         public String  codigo_conexion { get; set; }
 
         [Display(Name = "Latitud conexión")]
-        [Required(ErrorMessage = "Debe ingresar la latitud de la conexión")]
         public double latitud_con { get; set; }
 
         [Display(Name = "Longitud conexión")]
-        [Required(ErrorMessage = "Debe ingresar la longitud de la conexión")]
         public double longitud_con { get; set; }
 
         [Display(Name = "Tipo de red")]
@@ -174,7 +170,6 @@ namespace RaptorENEL_V._1._0.Models
 
 
         [Display(Name = "Fecha creación")]
-        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         [Required(ErrorMessage = "Debe seleccionar una fecha")]
         public DateTime? fecha { get; set; } = null;
 
